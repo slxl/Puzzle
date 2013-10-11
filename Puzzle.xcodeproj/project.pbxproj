@@ -137,6 +137,27 @@
 		F9D04FB518087243000F50A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FB418087243000F50A1 /* AppDelegate.m */; };
 		F9D04FB818087243000F50A1 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FB718087243000F50A1 /* HelloWorldLayer.m */; };
 		F9D04FBB18087243000F50A1 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FBA18087243000F50A1 /* IntroLayer.m */; };
+		F9D04FCE1808727A000F50A1 /* CCBAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC31808727A000F50A1 /* CCBAnimationManager.m */; };
+		F9D04FCF1808727A000F50A1 /* CCBKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC51808727A000F50A1 /* CCBKeyframe.m */; };
+		F9D04FD01808727A000F50A1 /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC71808727A000F50A1 /* CCBReader.m */; };
+		F9D04FD11808727A000F50A1 /* CCBsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC91808727A000F50A1 /* CCBsequence.m */; };
+		F9D04FD21808727A000F50A1 /* CCBSequenceProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FCB1808727A000F50A1 /* CCBSequenceProperty.m */; };
+		F9D04FD31808727A000F50A1 /* CCNode+CCBRelativePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FCD1808727A000F50A1 /* CCNode+CCBRelativePositioning.m */; };
+		F9D04FDA18087299000F50A1 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FD518087299000F50A1 /* GameManager.m */; };
+		F9D04FDB18087299000F50A1 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FD718087299000F50A1 /* GameScene.m */; };
+		F9D04FDC18087299000F50A1 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FD918087299000F50A1 /* Level.m */; };
+		F9D04FEA1808732C000F50A1 /* bg-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FDE1808732C000F50A1 /* bg-ipad.png */; };
+		F9D04FEB1808732C000F50A1 /* bg-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FDF1808732C000F50A1 /* bg-ipadhd.png */; };
+		F9D04FEC1808732C000F50A1 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE01808732C000F50A1 /* bg.png */; };
+		F9D04FED1808732C000F50A1 /* BitmapAtlas-ipad.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE11808732C000F50A1 /* BitmapAtlas-ipad.plist */; };
+		F9D04FEE1808732C000F50A1 /* BitmapAtlas-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE21808732C000F50A1 /* BitmapAtlas-ipad.png */; };
+		F9D04FEF1808732C000F50A1 /* BitmapAtlas-ipadhd.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE31808732C000F50A1 /* BitmapAtlas-ipadhd.plist */; };
+		F9D04FF01808732C000F50A1 /* BitmapAtlas-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE41808732C000F50A1 /* BitmapAtlas-ipadhd.png */; };
+		F9D04FF11808732C000F50A1 /* fan.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE51808732C000F50A1 /* fan.wav */; };
+		F9D04FF21808732C000F50A1 /* floop.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE61808732C000F50A1 /* floop.wav */; };
+		F9D04FF31808732C000F50A1 /* GameScene.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE71808732C000F50A1 /* GameScene.ccbi */; };
+		F9D04FF41808732C000F50A1 /* Level.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE81808732C000F50A1 /* Level.ccbi */; };
+		F9D04FF51808732C000F50A1 /* tear.wav in Resources */ = {isa = PBXBuildFile; fileRef = F9D04FE91808732C000F50A1 /* tear.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +434,37 @@
 		F9D04FB718087243000F50A1 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		F9D04FB918087243000F50A1 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		F9D04FBA18087243000F50A1 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		F9D04FC21808727A000F50A1 /* CCBAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBAnimationManager.h; sourceTree = "<group>"; };
+		F9D04FC31808727A000F50A1 /* CCBAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBAnimationManager.m; sourceTree = "<group>"; };
+		F9D04FC41808727A000F50A1 /* CCBKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBKeyframe.h; sourceTree = "<group>"; };
+		F9D04FC51808727A000F50A1 /* CCBKeyframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBKeyframe.m; sourceTree = "<group>"; };
+		F9D04FC61808727A000F50A1 /* CCBReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBReader.h; sourceTree = "<group>"; };
+		F9D04FC71808727A000F50A1 /* CCBReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBReader.m; sourceTree = "<group>"; };
+		F9D04FC81808727A000F50A1 /* CCBSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequence.h; sourceTree = "<group>"; };
+		F9D04FC91808727A000F50A1 /* CCBsequence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBsequence.m; sourceTree = "<group>"; };
+		F9D04FCA1808727A000F50A1 /* CCBSequenceProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBSequenceProperty.h; sourceTree = "<group>"; };
+		F9D04FCB1808727A000F50A1 /* CCBSequenceProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
+		F9D04FCC1808727A000F50A1 /* CCNode+CCBRelativePositioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+CCBRelativePositioning.h"; sourceTree = "<group>"; };
+		F9D04FCD1808727A000F50A1 /* CCNode+CCBRelativePositioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCNode+CCBRelativePositioning.m"; sourceTree = "<group>"; };
+		F9D04FD418087299000F50A1 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		F9D04FD518087299000F50A1 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		F9D04FD618087299000F50A1 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		F9D04FD718087299000F50A1 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		F9D04FD818087299000F50A1 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		F9D04FD918087299000F50A1 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		F9D04FDD180872BF000F50A1 /* CommonProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonProtocols.h; sourceTree = "<group>"; };
+		F9D04FDE1808732C000F50A1 /* bg-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-ipad.png"; sourceTree = "<group>"; };
+		F9D04FDF1808732C000F50A1 /* bg-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-ipadhd.png"; sourceTree = "<group>"; };
+		F9D04FE01808732C000F50A1 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		F9D04FE11808732C000F50A1 /* BitmapAtlas-ipad.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BitmapAtlas-ipad.plist"; sourceTree = "<group>"; };
+		F9D04FE21808732C000F50A1 /* BitmapAtlas-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BitmapAtlas-ipad.png"; sourceTree = "<group>"; };
+		F9D04FE31808732C000F50A1 /* BitmapAtlas-ipadhd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BitmapAtlas-ipadhd.plist"; sourceTree = "<group>"; };
+		F9D04FE41808732C000F50A1 /* BitmapAtlas-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BitmapAtlas-ipadhd.png"; sourceTree = "<group>"; };
+		F9D04FE51808732C000F50A1 /* fan.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fan.wav; sourceTree = "<group>"; };
+		F9D04FE61808732C000F50A1 /* floop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = floop.wav; sourceTree = "<group>"; };
+		F9D04FE71808732C000F50A1 /* GameScene.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameScene.ccbi; sourceTree = "<group>"; };
+		F9D04FE81808732C000F50A1 /* Level.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = Level.ccbi; sourceTree = "<group>"; };
+		F9D04FE91808732C000F50A1 /* tear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tear.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -473,10 +525,17 @@
 			children = (
 				F9D04FB318087243000F50A1 /* AppDelegate.h */,
 				F9D04FB418087243000F50A1 /* AppDelegate.m */,
+				F9D04FDD180872BF000F50A1 /* CommonProtocols.h */,
 				F9D04FB618087243000F50A1 /* HelloWorldLayer.h */,
 				F9D04FB718087243000F50A1 /* HelloWorldLayer.m */,
 				F9D04FB918087243000F50A1 /* IntroLayer.h */,
 				F9D04FBA18087243000F50A1 /* IntroLayer.m */,
+				F9D04FD418087299000F50A1 /* GameManager.h */,
+				F9D04FD518087299000F50A1 /* GameManager.m */,
+				F9D04FD618087299000F50A1 /* GameScene.h */,
+				F9D04FD718087299000F50A1 /* GameScene.m */,
+				F9D04FD818087299000F50A1 /* Level.h */,
+				F9D04FD918087299000F50A1 /* Level.m */,
 				F9D04E2D18087241000F50A1 /* Resources */,
 				F9D04E4518087241000F50A1 /* libs */,
 				F9D04FAF18087243000F50A1 /* Supporting Files */,
@@ -487,6 +546,18 @@
 		F9D04E2D18087241000F50A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F9D04FDE1808732C000F50A1 /* bg-ipad.png */,
+				F9D04FDF1808732C000F50A1 /* bg-ipadhd.png */,
+				F9D04FE01808732C000F50A1 /* bg.png */,
+				F9D04FE11808732C000F50A1 /* BitmapAtlas-ipad.plist */,
+				F9D04FE21808732C000F50A1 /* BitmapAtlas-ipad.png */,
+				F9D04FE31808732C000F50A1 /* BitmapAtlas-ipadhd.plist */,
+				F9D04FE41808732C000F50A1 /* BitmapAtlas-ipadhd.png */,
+				F9D04FE51808732C000F50A1 /* fan.wav */,
+				F9D04FE61808732C000F50A1 /* floop.wav */,
+				F9D04FE91808732C000F50A1 /* tear.wav */,
+				F9D04FE71808732C000F50A1 /* GameScene.ccbi */,
+				F9D04FE81808732C000F50A1 /* Level.ccbi */,
 				F9D04E2E18087241000F50A1 /* Default.png */,
 				F9D04E3018087241000F50A1 /* Default@2x.png */,
 				F9D04E3218087241000F50A1 /* Default-568h@2x.png */,
@@ -509,6 +580,7 @@
 				F9D04F6D18087242000F50A1 /* LICENSE_cocos2d.txt */,
 				F9D04F7C18087242000F50A1 /* LICENSE_CocosDenshion.txt */,
 				F9D04FAE18087243000F50A1 /* LICENSE_Kazmath.txt */,
+				F9D04FC11808727A000F50A1 /* CCBReader */,
 				F9D04E4618087241000F50A1 /* cocos2d */,
 				F9D04F6E18087242000F50A1 /* CocosDenshion */,
 				F9D04F7D18087243000F50A1 /* kazmath */,
@@ -858,6 +930,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F9D04FC11808727A000F50A1 /* CCBReader */ = {
+			isa = PBXGroup;
+			children = (
+				F9D04FC21808727A000F50A1 /* CCBAnimationManager.h */,
+				F9D04FC31808727A000F50A1 /* CCBAnimationManager.m */,
+				F9D04FC41808727A000F50A1 /* CCBKeyframe.h */,
+				F9D04FC51808727A000F50A1 /* CCBKeyframe.m */,
+				F9D04FC61808727A000F50A1 /* CCBReader.h */,
+				F9D04FC71808727A000F50A1 /* CCBReader.m */,
+				F9D04FC81808727A000F50A1 /* CCBSequence.h */,
+				F9D04FC91808727A000F50A1 /* CCBsequence.m */,
+				F9D04FCA1808727A000F50A1 /* CCBSequenceProperty.h */,
+				F9D04FCB1808727A000F50A1 /* CCBSequenceProperty.m */,
+				F9D04FCC1808727A000F50A1 /* CCNode+CCBRelativePositioning.h */,
+				F9D04FCD1808727A000F50A1 /* CCNode+CCBRelativePositioning.m */,
+			);
+			path = CCBReader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -921,6 +1012,18 @@
 				F9D04E4118087241000F50A1 /* Icon@2x.png in Resources */,
 				F9D04E4418087241000F50A1 /* iTunesArtwork in Resources */,
 				F9D04F9318087243000F50A1 /* ChangeLog in Resources */,
+				F9D04FEA1808732C000F50A1 /* bg-ipad.png in Resources */,
+				F9D04FEB1808732C000F50A1 /* bg-ipadhd.png in Resources */,
+				F9D04FEC1808732C000F50A1 /* bg.png in Resources */,
+				F9D04FED1808732C000F50A1 /* BitmapAtlas-ipad.plist in Resources */,
+				F9D04FEE1808732C000F50A1 /* BitmapAtlas-ipad.png in Resources */,
+				F9D04FEF1808732C000F50A1 /* BitmapAtlas-ipadhd.plist in Resources */,
+				F9D04FF01808732C000F50A1 /* BitmapAtlas-ipadhd.png in Resources */,
+				F9D04FF11808732C000F50A1 /* fan.wav in Resources */,
+				F9D04FF21808732C000F50A1 /* floop.wav in Resources */,
+				F9D04FF31808732C000F50A1 /* GameScene.ccbi in Resources */,
+				F9D04FF41808732C000F50A1 /* Level.ccbi in Resources */,
+				F9D04FF51808732C000F50A1 /* tear.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,6 +1143,15 @@
 				F9D04FB518087243000F50A1 /* AppDelegate.m in Sources */,
 				F9D04FB818087243000F50A1 /* HelloWorldLayer.m in Sources */,
 				F9D04FBB18087243000F50A1 /* IntroLayer.m in Sources */,
+				F9D04FCE1808727A000F50A1 /* CCBAnimationManager.m in Sources */,
+				F9D04FCF1808727A000F50A1 /* CCBKeyframe.m in Sources */,
+				F9D04FD01808727A000F50A1 /* CCBReader.m in Sources */,
+				F9D04FD11808727A000F50A1 /* CCBsequence.m in Sources */,
+				F9D04FD21808727A000F50A1 /* CCBSequenceProperty.m in Sources */,
+				F9D04FD31808727A000F50A1 /* CCNode+CCBRelativePositioning.m in Sources */,
+				F9D04FDA18087299000F50A1 /* GameManager.m in Sources */,
+				F9D04FDB18087299000F50A1 /* GameScene.m in Sources */,
+				F9D04FDC18087299000F50A1 /* Level.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
