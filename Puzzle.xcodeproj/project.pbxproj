@@ -522,10 +522,6 @@
 				F9D04FDD180872BF000F50A1 /* CommonProtocols.h */,
 				F9D04FD418087299000F50A1 /* GameManager.h */,
 				F9D04FD518087299000F50A1 /* GameManager.m */,
-				F9D04FD618087299000F50A1 /* GameScene.h */,
-				F9D04FD718087299000F50A1 /* GameScene.m */,
-				F9D04FD818087299000F50A1 /* Level.h */,
-				F9D04FD918087299000F50A1 /* Level.m */,
 				F9D04E2D18087241000F50A1 /* Resources */,
 				F9D04E4518087241000F50A1 /* libs */,
 				F9D04FAF18087243000F50A1 /* Supporting Files */,
@@ -536,18 +532,7 @@
 		F9D04E2D18087241000F50A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F9D04FDE1808732C000F50A1 /* bg-ipad.png */,
-				F9D04FDF1808732C000F50A1 /* bg-ipadhd.png */,
-				F9D04FE01808732C000F50A1 /* bg.png */,
-				F9D04FE11808732C000F50A1 /* BitmapAtlas-ipad.plist */,
-				F9D04FE21808732C000F50A1 /* BitmapAtlas-ipad.png */,
-				F9D04FE31808732C000F50A1 /* BitmapAtlas-ipadhd.plist */,
-				F9D04FE41808732C000F50A1 /* BitmapAtlas-ipadhd.png */,
-				F9D04FE51808732C000F50A1 /* fan.wav */,
-				F9D04FE61808732C000F50A1 /* floop.wav */,
-				F9D04FE91808732C000F50A1 /* tear.wav */,
-				F9D04FE71808732C000F50A1 /* GameScene.ccbi */,
-				F9D04FE81808732C000F50A1 /* Level.ccbi */,
+				F9D04FF618087543000F50A1 /* Pack 01 */,
 				F9D04E2E18087241000F50A1 /* Default.png */,
 				F9D04E3018087241000F50A1 /* Default@2x.png */,
 				F9D04E3218087241000F50A1 /* Default-568h@2x.png */,
@@ -937,6 +922,53 @@
 				F9D04FCD1808727A000F50A1 /* CCNode+CCBRelativePositioning.m */,
 			);
 			path = CCBReader;
+			sourceTree = "<group>";
+		};
+		F9D04FF618087543000F50A1 /* Pack 01 */ = {
+			isa = PBXGroup;
+			children = (
+				F9D04FD618087299000F50A1 /* GameScene.h */,
+				F9D04FD718087299000F50A1 /* GameScene.m */,
+				F9D04FD818087299000F50A1 /* Level.h */,
+				F9D04FD918087299000F50A1 /* Level.m */,
+				F9D04FF91808757C000F50A1 /* Sounds */,
+				F9D04FF818087561000F50A1 /* Backgrounds */,
+				F9D04FF718087554000F50A1 /* Level 01 */,
+			);
+			name = "Pack 01";
+			sourceTree = "<group>";
+		};
+		F9D04FF718087554000F50A1 /* Level 01 */ = {
+			isa = PBXGroup;
+			children = (
+				F9D04FE11808732C000F50A1 /* BitmapAtlas-ipad.plist */,
+				F9D04FE21808732C000F50A1 /* BitmapAtlas-ipad.png */,
+				F9D04FE31808732C000F50A1 /* BitmapAtlas-ipadhd.plist */,
+				F9D04FE41808732C000F50A1 /* BitmapAtlas-ipadhd.png */,
+				F9D04FE71808732C000F50A1 /* GameScene.ccbi */,
+				F9D04FE81808732C000F50A1 /* Level.ccbi */,
+			);
+			name = "Level 01";
+			sourceTree = "<group>";
+		};
+		F9D04FF818087561000F50A1 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				F9D04FDE1808732C000F50A1 /* bg-ipad.png */,
+				F9D04FDF1808732C000F50A1 /* bg-ipadhd.png */,
+				F9D04FE01808732C000F50A1 /* bg.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		F9D04FF91808757C000F50A1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F9D04FE51808732C000F50A1 /* fan.wav */,
+				F9D04FE61808732C000F50A1 /* floop.wav */,
+				F9D04FE91808732C000F50A1 /* tear.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
