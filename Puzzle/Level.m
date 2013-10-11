@@ -123,7 +123,7 @@
         //CCLOG(@"touch ended at: %f,%f", touchLocation.x, touchLocation.y);
 
         //check for the end
-        int sum;
+        int sum = 0;
         for( NSNumber *i in winTest)
         {
             sum = sum + [i intValue];

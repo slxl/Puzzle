@@ -135,8 +135,6 @@
 		F9D04FAD18087243000F50A1 /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FAC18087243000F50A1 /* vec4.c */; };
 		F9D04FB218087243000F50A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FB118087243000F50A1 /* main.m */; };
 		F9D04FB518087243000F50A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FB418087243000F50A1 /* AppDelegate.m */; };
-		F9D04FB818087243000F50A1 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FB718087243000F50A1 /* HelloWorldLayer.m */; };
-		F9D04FBB18087243000F50A1 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FBA18087243000F50A1 /* IntroLayer.m */; };
 		F9D04FCE1808727A000F50A1 /* CCBAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC31808727A000F50A1 /* CCBAnimationManager.m */; };
 		F9D04FCF1808727A000F50A1 /* CCBKeyframe.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC51808727A000F50A1 /* CCBKeyframe.m */; };
 		F9D04FD01808727A000F50A1 /* CCBReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D04FC71808727A000F50A1 /* CCBReader.m */; };
@@ -430,10 +428,6 @@
 		F9D04FB118087243000F50A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9D04FB318087243000F50A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9D04FB418087243000F50A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F9D04FB618087243000F50A1 /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		F9D04FB718087243000F50A1 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		F9D04FB918087243000F50A1 /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		F9D04FBA18087243000F50A1 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		F9D04FC21808727A000F50A1 /* CCBAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBAnimationManager.h; sourceTree = "<group>"; };
 		F9D04FC31808727A000F50A1 /* CCBAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBAnimationManager.m; sourceTree = "<group>"; };
 		F9D04FC41808727A000F50A1 /* CCBKeyframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBKeyframe.h; sourceTree = "<group>"; };
@@ -526,10 +520,6 @@
 				F9D04FB318087243000F50A1 /* AppDelegate.h */,
 				F9D04FB418087243000F50A1 /* AppDelegate.m */,
 				F9D04FDD180872BF000F50A1 /* CommonProtocols.h */,
-				F9D04FB618087243000F50A1 /* HelloWorldLayer.h */,
-				F9D04FB718087243000F50A1 /* HelloWorldLayer.m */,
-				F9D04FB918087243000F50A1 /* IntroLayer.h */,
-				F9D04FBA18087243000F50A1 /* IntroLayer.m */,
 				F9D04FD418087299000F50A1 /* GameManager.h */,
 				F9D04FD518087299000F50A1 /* GameManager.m */,
 				F9D04FD618087299000F50A1 /* GameScene.h */,
@@ -1141,8 +1131,6 @@
 				F9D04FAD18087243000F50A1 /* vec4.c in Sources */,
 				F9D04FB218087243000F50A1 /* main.m in Sources */,
 				F9D04FB518087243000F50A1 /* AppDelegate.m in Sources */,
-				F9D04FB818087243000F50A1 /* HelloWorldLayer.m in Sources */,
-				F9D04FBB18087243000F50A1 /* IntroLayer.m in Sources */,
 				F9D04FCE1808727A000F50A1 /* CCBAnimationManager.m in Sources */,
 				F9D04FCF1808727A000F50A1 /* CCBKeyframe.m in Sources */,
 				F9D04FD01808727A000F50A1 /* CCBReader.m in Sources */,
