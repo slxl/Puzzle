@@ -11,6 +11,8 @@
 
 @implementation Level
 {
+    CCLayer* levelLayer;
+    
     int partsQuantity;
 }
 
@@ -30,6 +32,13 @@
                                    
         
         partsQuantity = [[plistData objectForKey:@"partsQuantity"] integerValue];
+        
+        // Load the level
+        levelLayer = [CCBReader nodeGraphFromFile:level];
+       
+        
+        // And add it to the game scene
+        [self addChild:levelLayer];
         
     
     }
