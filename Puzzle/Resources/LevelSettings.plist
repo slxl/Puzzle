@@ -8,7 +8,9 @@
 	<dict>
 		<key>L101</key>
 		<dict>
-			<key>partsQuantity</key>
+			<key>bgImageName</key>
+			<string>bg.png</string>
+			<key>elementsQuantity</key>
 			<integer>7</integer>
 			<key>tolerance</key>
 			<integer>10</integer>

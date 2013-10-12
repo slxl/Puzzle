@@ -1,7 +1,5 @@
 #import "GameScene.h"
-#import "CCBReader.h"
 #import "CCBAnimationManager.h"
-
 
 static GameScene* sharedScene;
 
@@ -28,7 +26,6 @@ static GameScene* sharedScene;
     level = [CCBReader nodeGraphFromFile:@"Level.ccbi"];
     animationManager = level.userObject;
 
-    
     // And add it to the game scene
     [levelLayer addChild:level];
 }
