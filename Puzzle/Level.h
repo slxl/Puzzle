@@ -5,12 +5,7 @@
 //  Created by slxl on 17.12.12.
 //  Copyright (c) 2012 slxl. All rights reserved.
 //
-#import "cocos2d.h"
-#import "CommonProtocols.h"
 #import "GameManager.h"
-
-
-@class MovableObject;
 
 @interface Level : CCLayer
 {

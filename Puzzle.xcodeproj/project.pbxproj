@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F925A5651809677B004BD20E /* LevelSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F925A5641809677B004BD20E /* LevelSettings.plist */; };
 		F9D04E1B18087241000F50A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D04E1A18087241000F50A1 /* QuartzCore.framework */; };
 		F9D04E1D18087241000F50A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D04E1C18087241000F50A1 /* OpenGLES.framework */; };
 		F9D04E1F18087241000F50A1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D04E1E18087241000F50A1 /* OpenAL.framework */; };
@@ -159,6 +160,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F925A5641809677B004BD20E /* LevelSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LevelSettings.plist; path = Resources/LevelSettings.plist; sourceTree = "<group>"; };
 		F9D04E1718087241000F50A1 /* Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D04E1A18087241000F50A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F9D04E1C18087241000F50A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -522,6 +524,7 @@
 				F9D04FDD180872BF000F50A1 /* CommonProtocols.h */,
 				F9D04FD418087299000F50A1 /* GameManager.h */,
 				F9D04FD518087299000F50A1 /* GameManager.m */,
+				F925A5641809677B004BD20E /* LevelSettings.plist */,
 				F9D04E2D18087241000F50A1 /* Resources */,
 				F9D04E4518087241000F50A1 /* libs */,
 				F9D04FAF18087243000F50A1 /* Supporting Files */,
@@ -1046,6 +1049,7 @@
 				F9D04FF31808732C000F50A1 /* GameScene.ccbi in Resources */,
 				F9D04FF41808732C000F50A1 /* Level.ccbi in Resources */,
 				F9D04FF51808732C000F50A1 /* tear.wav in Resources */,
+				F925A5651809677B004BD20E /* LevelSettings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1275,6 +1279,7 @@
 				F9D04FC018087243000F50A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
