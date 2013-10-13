@@ -38,7 +38,7 @@ typedef enum {
 } SceneTypes;
 
 #define NumberOfParts 7
-#define TOLERANCE 10.0
+#define TOLERANCE 20.0
 
 // Audio constants
 #define SFX_NOTLOADED NO

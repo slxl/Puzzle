@@ -2,17 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Common</key>
+	<key>kNoSceneUninitialized</key>
 	<dict/>
-	<key>Levels</key>
+	<key>kMainScene</key>
 	<dict>
-		<key>L101</key>
-		<dict>
-			<key>bgImageName</key>
-			<string>bg.png</string>
-			<key>tolerance</key>
-			<integer>10</integer>
-		</dict>
+		<key>S1</key>
+		<string>tear.wav</string>
+		<key>S2</key>
+		<string>floop.wav</string>
+		<key>S3</key>
+		<string>fan.wav</string>
 	</dict>
 </dict>
 </plist>

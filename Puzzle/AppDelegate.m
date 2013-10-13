@@ -12,6 +12,7 @@
 #import "CCBReader.h"
 #import "CommonProtocols.h"
 #import "GameManager.h"
+#import "GameScene.h"
 
 
 @implementation MyNavigationController
@@ -50,11 +51,11 @@
 	if(director.runningScene == nil) {
 		// Add the first scene to the stack. The director will draw it immediately into the framebuffer. (Animation is started automatically when the view is displayed.)
 		// and add the scene to the stack. The director will run it when it automatically when the view is displayed.
-        CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"GameScene.ccbi"];
-		
+//        CCScene* scene = [CCBReader sceneWithNodeGraphFromFile:@"GameScene.ccbi"];
+
         [[GameManager sharedGameManager] setupAudioEngine];
         
-        [director runWithScene: scene];
+        [director runWithScene: [GameScene sceneWithLevel:@"L101"]];
 	}
 }
 @end
@@ -66,7 +67,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-	// Create the main window
+	
+#warning check testflight options
+//    [TestFlight takeOff:@"75d88b713c9ab84ef78db9e4bbac2c66_NjEwOTEyMDEyLTAyLTE1IDA5OjIwOjAzLjA3ODY1NA"];
+//    
+//#define TESTING 1
+//#ifdef TESTING
+//    [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+//#endif
+//    
+    
+
+    // Create the main window
 	window_ = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
 	
