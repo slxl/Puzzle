@@ -26,13 +26,13 @@ static GameScene* sharedScene;
         CCSprite *background = [CCSprite spriteWithFile:[NSString stringWithFormat:@"%@.png", levelID ]];
         [background setAnchorPoint:ccp(0,0)];
         [background setPosition:ccp(0,0)];
-        //[self addChild:background z:-1];
+        [self addChild:background z:-1];
         
         levelLayer = (LevelLayer*)[CCBReader nodeGraphFromFile:[NSString stringWithFormat:@"%@.ccbi", levelID ]];
         [self addChild:levelLayer];
         
         gameControlsLayer = [GameControlsLayer node];
-        //[self addChild:gameControlsLayer];
+        [self addChild:gameControlsLayer];
     }
     return self;
 }

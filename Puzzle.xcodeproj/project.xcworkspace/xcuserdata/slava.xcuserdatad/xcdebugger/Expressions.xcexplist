@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LevelLayer init]:LevelLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "elementsQuantity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LevelLayer onEnter]:LevelLayer.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "elementsQuantity">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

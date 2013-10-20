@@ -17,6 +17,7 @@
 		F925A384180AD13600FE7626 /* L101-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = F925A382180AD13600FE7626 /* L101-ipadhd.png */; };
 		F925A5651809677B004BD20E /* LevelSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = F925A5641809677B004BD20E /* LevelSettings.plist */; };
 		F925A56E1809C1A8004BD20E /* GameControlsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F925A56D1809C1A7004BD20E /* GameControlsLayer.m */; };
+		F93A693F180C1F6C0022AC23 /* LevelSelectionScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F93A693E180C1F6C0022AC23 /* LevelSelectionScene.m */; };
 		F9D04E1B18087241000F50A1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D04E1A18087241000F50A1 /* QuartzCore.framework */; };
 		F9D04E1D18087241000F50A1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D04E1C18087241000F50A1 /* OpenGLES.framework */; };
 		F9D04E1F18087241000F50A1 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9D04E1E18087241000F50A1 /* OpenAL.framework */; };
@@ -172,6 +173,8 @@
 		F925A5641809677B004BD20E /* LevelSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LevelSettings.plist; path = Resources/LevelSettings.plist; sourceTree = "<group>"; };
 		F925A56C1809C1A6004BD20E /* GameControlsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameControlsLayer.h; sourceTree = "<group>"; };
 		F925A56D1809C1A7004BD20E /* GameControlsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameControlsLayer.m; sourceTree = "<group>"; };
+		F93A693D180C1F6C0022AC23 /* LevelSelectionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectionScene.h; sourceTree = "<group>"; };
+		F93A693E180C1F6C0022AC23 /* LevelSelectionScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectionScene.m; sourceTree = "<group>"; };
 		F9D04E1718087241000F50A1 /* Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Puzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D04E1A18087241000F50A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F9D04E1C18087241000F50A1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -486,6 +489,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F93A6939180C1F190022AC23 /* LevelSelection */ = {
+			isa = PBXGroup;
+			children = (
+				F93A693B180C1F340022AC23 /* Backgrounds */,
+				F93A693A180C1F2D0022AC23 /* Sounds */,
+				F93A693D180C1F6C0022AC23 /* LevelSelectionScene.h */,
+				F93A693E180C1F6C0022AC23 /* LevelSelectionScene.m */,
+			);
+			name = LevelSelection;
+			sourceTree = "<group>";
+		};
+		F93A693A180C1F2D0022AC23 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		F93A693B180C1F340022AC23 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
 		F9D04E0E18087241000F50A1 = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +567,7 @@
 		F9D04E2D18087241000F50A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F93A6939180C1F190022AC23 /* LevelSelection */,
 				F9D04FF618087543000F50A1 /* Pack 01 */,
 				F9D04E3418087241000F50A1 /* Default-Landscape~ipad.png */,
 				F9D04E3618087241000F50A1 /* Icon-72.png */,
@@ -1182,6 +1211,7 @@
 				F9D04FDB18087299000F50A1 /* GameScene.m in Sources */,
 				F9D04FDC18087299000F50A1 /* LevelLayer.m in Sources */,
 				F925A56E1809C1A8004BD20E /* GameControlsLayer.m in Sources */,
+				F93A693F180C1F6C0022AC23 /* LevelSelectionScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
