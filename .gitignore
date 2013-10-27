@@ -1,6 +1,4 @@
-
-*.xccheckout
-
-.DS_Store
-
+*.DS_Store
 *.xcuserstate
+*.xcbkptlist
+*.xcscheme
