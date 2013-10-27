@@ -23,6 +23,8 @@
     if (self != nil) {
         // this is 14:43 version
         
+        //change 1
+        
         // get level variables from plist
 //        NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"LevelSettings.plist"];
 //        NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:path];
