@@ -22,6 +22,7 @@
     self = [super init];
     if (self != nil) {
     
+        NSLOG (@"This is develop branch");
         // get level variables from plist
 //        NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"LevelSettings.plist"];
 //        NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:path];
