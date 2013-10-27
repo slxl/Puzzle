@@ -21,7 +21,8 @@
 - (id) init{
     self = [super init];
     if (self != nil) {
-    
+        // this is 14:43 version
+        
         // get level variables from plist
 //        NSString *path = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"LevelSettings.plist"];
 //        NSDictionary *plistData = [NSDictionary dictionaryWithContentsOfFile:path];

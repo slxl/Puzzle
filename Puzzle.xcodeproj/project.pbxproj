@@ -1036,6 +1036,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Vyacheslav Khlichkin";
+				TargetAttributes = {
+					F9D04E1618087241000F50A1 = {
+						DevelopmentTeam = S2AXLQW6VY;
+					};
+				};
 			};
 			buildConfigurationList = F9D04E1218087241000F50A1 /* Build configuration list for PBXProject "Puzzle" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1262,12 +1267,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Puzzle/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Puzzle/libs/kazmath/include\"";
 				INFOPLIST_FILE = Puzzle/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1281,11 +1288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Puzzle/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"Puzzle/libs/kazmath/include\"";
 				INFOPLIST_FILE = Puzzle/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
