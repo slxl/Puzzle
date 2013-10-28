@@ -13,6 +13,7 @@
 #import "CommonProtocols.h"
 #import "GameManager.h"
 #import "GameScene.h"
+#import "LevelSelectionScene.h"
 
 
 @implementation MyNavigationController
@@ -55,7 +56,8 @@
 
         [[GameManager sharedGameManager] setupAudioEngine];
         
-        [director runWithScene: [GameScene sceneWithLevel:@"L101"]];
+        //[director runWithScene: [GameScene sceneWithLevel:@"L101"]];
+        [director runWithScene: [LevelSelectionScene scene]];
 	}
 }
 @end
